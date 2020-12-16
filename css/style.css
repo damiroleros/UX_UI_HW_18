@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+}
+a {
+    color: #856c60;
+    font-family: 'Montserrat', sans-serif;;
+  }
+.navigation{
+    width: 1200px;
+    margin-left: auto;
+    margin: 0 auto;
+    padding: 35px;
+
+}
+
+.blurb{  
+    width: 1100px;
+    margin-left: auto;
+    margin: 0 auto;
+    color: #4a4936;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;}
+    
+
+
+.logo{
+    width: 60px;
+    float: left;
+}
+
+.DO-UX{
+    font-family: 'Montserrat', sans-serif;
+}
+.topnav-right {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    color: 7d5e3a;
+  }
+
+
+.right{
+    float:right;
+    padding-right:15px;
+}
+.Bio-Body {
+    font-family:'Montserrat', sans-serif;
+    color: #4a4936;
+    padding: 120px;
+}
+
+.Cases{
+   padding: auto;
+    display: grid;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.About{  
+    width: 850px;
+    margin-left: auto;
+    margin: 0 auto;
+    color: #4a4936;
+    font-family: 'Montserrat', sans-serif;
+    padding: 35px;}
+    
+
+.Skills{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-right: auto;
+    padding-left: auto;
+    align-items: center;
+    width: 1100px;
+   
+  
+    }
+
+.UX_Header{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 90px;
+    padding-bottom: 5px;} 
+
+
+.contact{ 
+    color: #4a4936;
+    font-family: 'Montserrat', sans-serif;
+    padding: 55px;}   
+
+.footer{
+padding:35px;
+}
+
+
+/* Section My Work */
+.workGrid{
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 1320px;
+    grid-gap: 10px;
+    grid-template-columns:  900px 320px;
+    grid-template-rows: 310px 310px 310px;
+    grid-template-areas: 
+    "Teen_logo Teen_content"
+    "Mood_logo Mood_content"
+    "Sole_logo Sole_content";
+}
+
+#Teen_logo{
+    grid-area: Teen_logo;
+    height: auto;
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Teen_content{
+    grid-area: Teen_content;
+}
+
+#Mood_logo{
+    grid-area: Mood_logo;
+}
+
+#Mood_content{
+    grid-area: Mood_content;
+}
+
+#Sole_logo{
+    grid-area: Sole_logo;
+}
+
+#Sole_content{
+    grid-area: Sole_content;
+}
+
+/* Footer */
+.footerGrid {
+    display: grid;
+}
